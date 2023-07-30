@@ -47,8 +47,8 @@
         </div>
         <div id="contact-sources" class="hidden lg:flex lg:flex-col my-2">
           <div v-for="(source, key) in config.dev.contacts.direct.sources" :key="key" class="flex items-center mb-2">
-            <img :src="'/icons/' + key + '.svg'" alt="" class="mx-4">
-            <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+            <img :src="'/icons/' + key + '.svg'" v-if="key=='email'" alt="" class="mx-4">
+            <a v-html="key" v-if="key =='email'" :href="`mailto:${source}`" class="font-fira_retina text-menu-text hover:text-white"></a>
           </div>
         </div>
 
@@ -94,8 +94,8 @@
         <!-- section content folders -->
         <div id="contacts" class="hidden">
           <div v-for="(source, key) in config.dev.contacts.direct.sources" :key="key" class="flex items-center my-2">
-            <img :src="'/icons/' + key + '.svg'" alt="">
-            <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white ml-4"></a>
+            <img :src="'/icons/' + key + '.svg'" v-if="key =='email'" alt="" class="p-2">
+            <a v-html="key" v-if="key =='email'" :href="`mailto:${source}`" class="font-fira_retina text-menu-text hover:text-white"></a>
           </div>
         </div>
 
@@ -275,8 +275,8 @@
 export default {
   data() {
     return {
-      currentSection: 'personal-info',
-      folder: 'bio',
+      currentSection: 'professional-info',
+      folder: 'experience',
       loading: true,
     }
   },

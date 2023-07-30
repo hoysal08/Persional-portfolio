@@ -63,8 +63,7 @@
     white-space: pre-wrap;
     max-height: 220px;
     width: max-content;
-    overflow: hidden;
-
+    overflow: scroll;
 }
 
 .snippet-container::-webkit-scrollbar {
@@ -145,6 +144,7 @@ export default {
         },
         setSnippet(gist) {
             let snippet = Object.values(gist.files)[0].content // Object.values(gist.files)[0].filename.content
+            console.log(snippet)
             return snippet
         },
         async setComments(comments_url){
