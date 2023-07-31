@@ -254,7 +254,7 @@ export default {
   },
   data() {
     return {
-      techs: ['React', 'HTML', 'CSS', 'Vue', 'Angular', 'Gatsby', 'Flutter'],
+      techs: ['React', 'Next', 'Tailwind', 'Node', 'MongoDB', 'Firebase', 'Solidity'],
       filters: ['all'],
       projects: '',
       loading: true,

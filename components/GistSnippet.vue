@@ -144,7 +144,6 @@ export default {
         },
         setSnippet(gist) {
             let snippet = Object.values(gist.files)[0].content // Object.values(gist.files)[0].filename.content
-            console.log(snippet)
             return snippet
         },
         async setComments(comments_url){
