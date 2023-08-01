@@ -279,9 +279,13 @@
   "resolved" "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz"
   "version" "2.0.2"
 
+"@emailjs/browser@^3.11.0":
+  "integrity" "sha512-RkY3FKZ3fPdK++OeF46mRTFpmmQWCHUVHZH209P3NE4D5sg2Atg7S2wa3gw5062Gl4clt4Wn5SyC4WhlVZC5pA=="
+  "resolved" "https://registry.npmjs.org/@emailjs/browser/-/browser-3.11.0.tgz"
+  "version" "3.11.0"
+
 "@highlightjs/vue-plugin@highlightjs/vue-plugin":
-  "integrity" "sha512-fU7I7K1j4cedxusLslO3YCiihB/OIVmv6KKVES66+CQmTXAXCTwSGjH52Z3+5jSe18s1VKCrPWw/PawkxZrhGQ=="
-  "resolved" "https://codeload.github.com/highlightjs/vue-plugin/tar.gz/454575aef428cdfe164156f2451cf3aecea7f74e"
+  "resolved" "git+ssh://git@github.com/highlightjs/vue-plugin.git#454575aef428cdfe164156f2451cf3aecea7f74e"
   "version" "2.1.1"
 
 "@ioredis/commands@^1.1.1":

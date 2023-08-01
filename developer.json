@@ -75,25 +75,15 @@
         "find_me_also_in": {
             "title": "find-me-also-in",
             "sources": {
-                "youtube": {
-                    "title": "YouTube channel",
-                    "url": "https://www.youtube.com/",
-                    "user": "username"
-                },
-                "gurushots": {
-                    "title": "GuruShots profile",
-                    "url": "https://gurushots.com/",
-                    "user": "username"
+                "medium": {
+                    "title": "Medium Profile",
+                    "url": "https://medium.com/",
+                    "user": "@surajhoysal"
                 },
                 "instagram": {
                     "title": "Instagram account",
-                    "url": "https://instagram.com/",
-                    "user": "username"
-                },
-                "twitch": {
-                    "title": "Twitch profile",
-                    "url": "https://twitch.com/",
-                    "user": "username"
+                    "url": "https://www.instagram.com/",
+                    "user": "surajhoysal"
                 }
             }
         }
@@ -134,7 +124,7 @@
                 "MongoDB",
                 "Firebase"
             ],
-            "url": "https://netflix-ui-ql2a.onrender.com/login"
+            "url": "https://netflix-ui-ql2a.onrender.com/"
         },
         "4": {
             "title": "_ether-Forge",
