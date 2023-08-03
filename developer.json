@@ -121,7 +121,7 @@
             "tech": [
                 "React",
                 "Node",
-                "Mongodb",
+                "MongoDB",
                 "Firebase"
             ],
             "url": "https://netflix-ui-ql2a.onrender.com/"
@@ -142,7 +142,7 @@
             "tech": [
                 "React",
                 "Node",
-                "Mongodb"
+                "MongoDB"
             ],
             "url": "https://github.com/hoysal08/social_media_app"
         },
