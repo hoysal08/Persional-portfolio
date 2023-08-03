@@ -96,11 +96,11 @@
         "1": {
             "title": "_proPrompts",
             "description": "AI Prompting sourcing Tool (LLM's)",
-            "img": "https://gateway.pinata.cloud/ipfs/QmQz7hvG6G1mmiRY7N4SK6L6G3tDoXxyxq7quJwDpFxEac",
+            "img": "/images/projects/proprompts.png",
             "tech": [
-                "Next",
-                "Tailwind",
-                "MongoDB"
+                "next",
+                "tailwind",
+                "mongodb"
             ],
             "url": "https://proprompts.vercel.app/"
         },
@@ -109,29 +109,29 @@
             "description": "Social swapable NFT Marketplace",
             "img": "/images/projects/ai-resources.png",
             "tech": [
-                "React",
-                "Solidity"
+                "react",
+                "solidity"
             ],
             "url": "https://github.com/hoysal08/SwapIt"
         },
         "3": {
             "title": "_netflix-Clone",
             "description": "Your personalised Video Streaming Site",
-            "img": "https://gateway.pinata.cloud/ipfs/Qmb9aXwAnTNatoWyHgyQoDmWaZMaTHuXUMDKoPkq1JjkzF",
+            "img": "/images/projects/netflix.png",
             "tech": [
-                "React",
-                "Node",
-                "MongoDB",
-                "Firebase"
+                "react",
+                "node",
+                "mongodb",
+                "firebase"
             ],
             "url": "https://netflix-ui-ql2a.onrender.com/"
         },
         "4": {
             "title": "_ether-Forge",
             "description": "Ethereum Wallet solution - secp256k1",
-            "img": "https://gateway.pinata.cloud/ipfs/QmREzQ1pKFjovNj4LoLovJvvv7FRnMVVFfn2F9V4q6Xe9W",
+            "img": "/images/projects/etherforge.png",
             "tech": [
-                "Next"
+                "next"
             ],
             "url": "https://etherforge.vercel.app/"
         },
@@ -140,9 +140,9 @@
             "description": "Micro-Blogging based social network",
             "img": "/images/projects/tetris-game.png",
             "tech": [
-                "React",
-                "Node",
-                "MongoDB"
+                "react",
+                "node",
+                "mongodb"
             ],
             "url": "https://github.com/hoysal08/social_media_app"
         },
@@ -151,7 +151,7 @@
             "description": "Multi-standard Token Marketplace smart contracts",
             "img": "/images/projects/ethereum.png",
             "tech": [
-                "Solidity"
+                "solidity"
             ],
             "url": "https://github.com/hoysal08/MultiTokenStandard_Marketplace"
         },
@@ -160,7 +160,7 @@
             "description": "Fractional NFT marketplace integrated with Dutch Auction",
             "img": "/images/projects/ethereum.png",
             "tech": [
-                "Solidity"
+                "solidity"
             ],
             "url": "https://github.com/hoysal08/fractional_nft"
         }
