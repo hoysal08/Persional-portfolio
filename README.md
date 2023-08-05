@@ -84,23 +84,3 @@ If you find any bugs or have any suggestions, you can open an <a href="https://g
 ## License
 
 This project is licensed under the MIT License. See the <a href="https://github.com/alexdeploy/developer-portfolio-v2/blob/main/LICENSE">LICENSE</a> file for more information.
-
-
-
-
-emailjs
-          .send(
-            "service_16os53n",
-            "template_x9o3g1d",
-            template_variables,
-            "Da9CIfCQP6cw8Vktn"
-          )
-          .then(
-            (result) => {
-              console.log("SUCCESS!", result.text);
-            },
-            (error) => {
-              console.log("FAILED...", error.text);
-            }
-          );
-      });
