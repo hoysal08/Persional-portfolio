@@ -64,7 +64,7 @@
             "twitter": {
                 "title": "Twitter account",
                 "url": "https://twitter.com/",
-                "user": "SurajHoysal"
+                "user": "Soorajhoysal"
             },
             "linkedin": {
                 "title": "Linkedin account",
@@ -76,14 +76,19 @@
             "title": "find-me-also-in",
             "sources": {
                 "medium": {
-                    "title": "Medium Profile",
+                    "title": "Medium",
                     "url": "https://medium.com/",
-                    "user": "@surajhoysal"
+                    "user": "@Soorajhoysal"
                 },
                 "instagram": {
-                    "title": "Instagram account",
+                    "title": "Instagram",
                     "url": "https://www.instagram.com/",
-                    "user": "surajhoysal"
+                    "user": "@Soorajhoysal"
+                },
+                "telegram": {
+                    "title": "Telegram",
+                    "url": "https://t.me/",
+                    "user": "Soorajhoysal"
                 }
             }
         }
