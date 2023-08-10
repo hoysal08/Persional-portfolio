@@ -66,6 +66,8 @@ export default defineNuxtConfig({
     viewer: false,
   },
 
+  plugins: [{ src: '~/plugins/vercel.js', mode: 'client' }],
+
   /**
    * * Runtime Config (Environment Variables)
    * Usage: https://nuxt.com/docs/guide/going-further/runtime-config
