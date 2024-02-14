@@ -254,7 +254,7 @@ export default {
   },
   data() {
     return {
-      techs: ['React', 'Next', 'Tailwind', 'Node', 'MongoDB', 'Firebase', 'Solidity'],
+      techs: ['React', 'Next', 'Tailwind', 'Node', 'MongoDB', 'Firebase', 'Solidity','AI'],
       filters: ['all'],
       projects: '',
       loading: true,

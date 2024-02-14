@@ -98,7 +98,18 @@
         "2": "a3e1d213751587a37aca9518d66b9dea"
     },
     "projects": {
-        "1": {
+        "1":{
+            "title":"_content_Brief",
+            "description":"AI assistant that can help get your reading concise but effective",
+            "img":"/images/projects/content-brief.png",
+            "tech":[
+                "Next",
+                "Tailwind",
+                "AI"
+            ],
+            "url":"https://github.com/hoysal08/content-brief"
+        },
+        "2": {
             "title": "_proPrompts",
             "description": "AI Prompting sourcing Tool (LLM's)",
             "img": "/images/projects/proprompts.png",
@@ -109,7 +120,7 @@
             ],
             "url": "https://proprompts.vercel.app/"
         },
-        "2": {
+        "3": {
             "title": "_token-Talk",
             "description": "Social swapable NFT Marketplace",
             "img": "/images/projects/ai-resources.png",
@@ -119,7 +130,7 @@
             ],
             "url": "https://github.com/hoysal08/SwapIt"
         },
-        "3": {
+        "4": {
             "title": "_netflix-Clone",
             "description": "Your personalised Video Streaming Site",
             "img": "/images/projects/netflix.png",
@@ -131,7 +142,7 @@
             ],
             "url": "https://netflix-ui-ql2a.onrender.com/"
         },
-        "4": {
+        "5": {
             "title": "_ether-Forge",
             "description": "Ethereum Wallet solution - secp256k1",
             "img": "/images/projects/etherforge.png",
@@ -140,9 +151,9 @@
             ],
             "url": "https://etherforge.vercel.app/"
         },
-        "5": {
+        "6": {
             "title": "_memories",
-            "description": "Micro-Blogging based social network",
+            "description": "Micro-Blogging based social network for nomads",
             "img": "/images/projects/tetris-game.png",
             "tech": [
                 "React",
@@ -151,7 +162,17 @@
             ],
             "url": "https://github.com/hoysal08/social_media_app"
         },
-        "6": {
+        "7":{
+            "title":"_file_Ninja",
+            "description":"A CLI tool to get your file core info in a jiffy",
+            "img":"/images/projects/file-ninja.jpg",
+            "url":"https://github.com/hoysal08/fileNinja",
+            "tech":[
+                "Node",
+                "Javascript"
+            ]
+        },
+        "8": {
             "title": "_Token-Marketplace",
             "description": "Multi-standard Token Marketplace smart contracts",
             "img": "/images/projects/ethereum.png",
@@ -160,7 +181,7 @@
             ],
             "url": "https://github.com/hoysal08/MultiTokenStandard_Marketplace"
         },
-        "7": {
+        "9": {
             "title": "_fractional-NFT",
             "description": "Fractional NFT marketplace integrated with Dutch Auction",
             "img": "/images/projects/ethereum.png",
