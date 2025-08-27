@@ -33,6 +33,7 @@
 </template>
 
 <script>
+import dev from '~/developer.json'
 export default {
   data(){
     return {
@@ -40,7 +41,7 @@ export default {
     }
   },
   setup() {
-    const config = useRuntimeConfig()
+    const config = { dev }
 
     return {
       config

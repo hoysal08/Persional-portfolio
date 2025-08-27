@@ -40,6 +40,7 @@
 
 <script>
 import emailjs from "@emailjs/browser";
+import dev from '~/developer.json'
 
 export default {
   name: "ContactForm",
@@ -69,7 +70,7 @@ export default {
         ).value;
 
         // Here the code to send the email
-        const config = useRuntimeConfig();
+        const config = { dev }
         let template_variables = {
           to_name: config.dev.name,
           from_name: name,

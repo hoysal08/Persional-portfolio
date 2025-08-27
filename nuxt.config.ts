@@ -61,24 +61,21 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/assets/tailwind.css',
     configPath: 'tailwind.config',
-    exposeConfig: true, // true to resolve the tailwind config in runtime. https://tailwindcss.nuxt.dev/getting-started/options/#exposeconfig
+    exposeConfig: false,
     injectPosition: 0,
     viewer: false,
   },
 
-  plugins: [{ src: '~/plugins/vercel.js', mode: 'client' }],
+  plugins: [{ src: '~/plugins/vercel.js', ssr: false }],
 
   /**
    * * Runtime Config (Environment Variables)
    * Usage: https://nuxt.com/docs/guide/going-further/runtime-config
    */
   runtimeConfig: {
-    // The private keys which are only available server-side
-    apiSecret: '123',
-    // Keys within public are also exposed client-side
+    apiSecret: process.env.API_SECRET || '123',
     public: {
-      apiBase: '/api',
-      dev: config
+      apiBase: '/api'
     }
   }
 })

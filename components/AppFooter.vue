@@ -83,6 +83,7 @@ footer > a > img {
 </style>
 
 <script>
+import dev from '~/developer.json'
 export default {
     name: 'AppFooter',
     data() {
@@ -92,7 +93,7 @@ export default {
     },
     setup() {
         return {
-            social: useRuntimeConfig().dev.contacts.social
+            social: dev.contacts.social
         }
     },
 }

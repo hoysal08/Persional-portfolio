@@ -245,9 +245,10 @@ input[type="checkbox"]:focus {
 </style>
 
 <script>
+import dev from '~/developer.json'
 export default {
   setup() {
-    const config = useRuntimeConfig()
+    const config = { dev, public: { dev } }
     return {
       config
     }

@@ -271,6 +271,7 @@
 </style>
 
 <script>
+import dev from '~/developer.json'
 
 export default {
   data() {
@@ -284,7 +285,7 @@ export default {
    * In setup we can define the data we want to use in the component before the component is created.
    */
   setup() {
-    const config = useRuntimeConfig()
+    const config = { dev, public: { dev } }
     return {
       config
     }

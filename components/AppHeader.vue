@@ -76,6 +76,7 @@
 </style>
 
 <script>
+import dev from '~/developer.json'
 
 export default {
   computed: {
@@ -85,7 +86,7 @@ export default {
     }
   },
   setup() {
-    const config = useRuntimeConfig()
+    const config = { dev }
 
     return {
       config

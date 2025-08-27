@@ -283,10 +283,11 @@
 </style>
 
 <script>
+import dev from '~/developer.json'
 export default {
   name: 'Hello',
   setup() {
-    const config = useRuntimeConfig()
+    const config = { dev, public: { dev } }
     return {
       config
     }
